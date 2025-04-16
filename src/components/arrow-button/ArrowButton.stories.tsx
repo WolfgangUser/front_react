@@ -1,3 +1,4 @@
+
 import type { Meta, StoryObj } from '@storybook/react';
 
 import { ArrowButton } from './ArrowButton';
@@ -13,8 +14,9 @@ export const ArrowButtonStory: Story = {
 	render: () => {
 		return (
 			<>
-				<ArrowButton />
+				<ArrowButton opened={false}/>
 			</>
 		);
 	},
 };
+
